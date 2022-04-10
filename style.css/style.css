@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    color: #222222;
+}
+
+header{
+    height: 13vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    padding: 42px;  
+}
+
+#logo{
+    width: 44px;
+    height: 44px;
+    font-size: 28px;
+    font-weight: 600;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#54CA95;
+    color: white;
+    border-radius: 50%;
+}
+
+#name-bold{
+    display: inline;
+    font-weight: 600;
+}
+
+header nav{
+    font-size: 14px;
+    width: 620px;  
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6px;
+}
+
+header nav ul li{
+    text-decoration: none;
+    transition: all 0.2s;
+    list-style: none;
+    color: #AAAAAA
+}
+
+header nav ul li:hover{
+    color:  #222222;
+    font-weight: bold;
+}
+
+#landing-page{
+    height: 87vh;
+}
+
+#landing-container{
+    display: flex;
+    align-items: center;
+    height: 72vh;
+}
+
+#about-me{
+    display: flex;
+    align-items: center;
+    max-width: 1000px;
+    max-height: 500px;
+    padding: 20px;
+    margin: auto;
+}
+
+#image-container{
+    display: flex;
+    border-radius: 50%;
+    box-shadow: 0 0 1.5em rgba(0,0,0,0.2);
+}
+
+#profile-image{
+    max-width: 100%;
+    border-radius: 50%;
+    background-color: #F5F5F5;
+    border: 1.1em solid white;
+}
+
+/* Efeito de zoom */
+
+.zoom{
+    overflow: hidden;
+}
+
+.zoom img{
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.zoom:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    padding: 1%;
+}
+
+/* Fim do efeito */
+
+#profile-info{
+    padding: 50px;
+    padding-right: 0px;
+    width: 63%;
+}
+
+#profile-info h2{
+    font-size: 16px;
+    font-weight: 300;
+    color: #AAAAAA;
+}
+
+#profile-info h1{
+    font-size: 48px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+#profile-info p{
+    font-size: 14px;
+    color: #666666;
+}
+
+#profile-info button{
+    margin-top: 28px;
+    margin-right: 5px;
+    padding: 0.8em 2.1em;
+    border-radius: 30px;
+    line-height: 1.2;
+    background-color: white;
+    border: 2px solid #d5d5d5;
+    box-shadow: 0 10px 10px -8px rgb(0 0 0 / 22%);
+}
+
+#profile-info #green-button{
+    border: 2px solid #54CA95;
+}
+
+#green-button:hover{
+    background-color: #54CA95;
+    color: white;
+}
+
+#gray-button:hover{
+    background-color: #d5d5d5;
+}
+
+#media-icons{
+    height: 14%;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 1%;
+    padding-right: 3%;
+}
+
+main div ul li a img{
+    max-width: 48px;
+    transition: all 0.2s;
+    margin-right: 5px;
+}
+
+main div ul li a img:hover{
+    max-width: 55px;
+}
+
+#social-media{
+    height: 15vh;
+}
+
+#resume{
+    margin-bottom: 5%;
+}
+
+#resume-title, #projects-title{
+    padding: 30px 40px;
+    margin-bottom: 65px;
+    background-color: #fdfdfd;
+    border-top: 2px solid #ededed;
+    border-bottom: 2px solid #ededed;
+    }
+
+#resume-title h2, #projects-title h2{
+    font-size: 42px;
+    font-family: "Poppins", sans-serif;
+}
+
+#resume-title p, #projects-title p{
+    font-size: 13px;
+    color: #AAAAAA;
+}
+
+#resume-container{
+    display: flex;
+    max-width: 75vw;
+    margin: auto;
+}
+
+#education-container, #professional-container{
+    max-width: 50%;
+}
+
+#education-container{
+    margin-right: 20px;
+}
+
+#professional-container{
+    margin-left: 20px;
+}
+
+.divisor{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.verde{    
+    width: 30px;
+    height: 3px;
+    background-color: #54CA95;
+}
+
+.cinza{    
+    width: 50px;
+    height: 3px;
+    background-color: #F5F5F5;
+}
+
+.timeline-description{
+    display: flex;
+    margin-left: 8%;
+}
+
+.timeline-logo{
+    display: flex;
+    align-items: center;
+}
+
+.timeline-logo img{
+    width: 100px;
+}
+
+.timeline-container{        
+    padding: 4%;
+    padding-right: 7%;
+    border-bottom: 1px solid #ededed;
+}
+
+.timeline-year{
+    max-width: 30%;
+}
+
+.timeline-label{
+    width: 100%;
+}
+.timeline-university{
+    max-width: 75%;
+}
+
+.year{
+   display: inline-block;
+   margin-right: 7px;
+   margin-bottom: 9px;
+   padding: 0 10px;
+   font-size: 12px;
+   font-weight: bold;
+   line-height: 23px;
+   color: #666;
+   border: 2px solid #54CA95;
+   border-radius: 30px;
+}
+
+.university-company{
+    display: inline-block;
+    font-size: 12px;
+    color: #666666;
+}
+
+.course-job{
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #333333;
+}
+
+.time-description, .activity-description ul li {
+    font-size: 13px;
+    color: #666666;
+    text-align: justify;
+}
+
+.activity-description{
+    padding-left: 4%;
+}
+
