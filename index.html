@@ -1,28 +1,27 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alexandre Silva</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 </head>
-
-<body>
-
+<body id="home">
     <header>
         <div>
-            <span id="logo">S</span>
-            <span id="name-bold">Sheldon</span> Cooper
+            <span id="logo"><a href="#home">A</a></span>
+            <span id="name-bold"><a href="#home">Alexandre</a></span> <a href="#home">Sousa</a> 
         </div>
         <nav>
             <ul>
-                <li>Sobre mim</li>
-                <li>Experiência</li>
-                <li>Projetos</li>
-                <li>Skills</li>
-                <li>Contato</li>
+                <li><a href="#home">Sobre mim</a> </li>
+                <li><a href="#resume-title">Experiência</a></li>
+                <li><a href="#projects-title">Projetos</a></li>
+                <li><a href="#skills-title">Skills</a></li>
+                <li><a href="#contact-title">Contato</a></li>
             </ul>
         </nav>
     </header>
@@ -31,30 +30,25 @@
             <div id="landing-container">
                 <div id="about-me">
                     <div id="image-container" class="zoom">
-                        <img id="profile-image" src="images/sheldon-cooper.png" alt="Foto do personagem Sheldon Cooper">
+                        <img id="profile-image" src="images/alexandre.png" alt="Foto de perfil de Alexandre Sousa">
                     </div>
-                    <span id="profile-info">
-                        <h2>Theoretical Physicist</h2>
-                        <h1>Sheldon Cooper</h1>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa officia dolorum, voluptate
-                            quae,
-                            maiores possimus nostrum quaerat beatae in inventore non error dolorem mollitia quis dolor
-                            incidunt! Quos.</p>
-                        <button id="green-button">Download CV</button>
-                        <button id="gray-button">Contact</button>
-                    </span>
+                    <div id="profile-info">
+                        <h3>Desenvolvedor full stack</h3>
+                        <h1>Alexandre Sousa</h1>
+                        <p>Atual estagiário de desenvolvimento de sistemas e desenvolvedor full stack em formação. Apaixonado por programação e desafios, combino lógica e criatividade para resolver <s id="risk">quase</s> tudo!   </p>
+                        <button id="green-button"><a href="others/cv-alexandre.pdf" download="Currículo - Alexandre Sousa" target="_blank">Download CV</a></button>
+                        <button id="gray-button"><a href="#contact-title">Contato</a></button>
+                    </div>
                 </div>
             </div>
             <div id="social-media">
                 <ul id="media-icons">
-                    <li><a href="#"><img src="images/linkedin-icon.png" alt="Símbolo do Discord"></a></li>
-                    <li><a href="#"><img src="images/github-icon.png" alt="Símbolo do Discord"></a></li>
-                    <li><a href="#"><img src="images/discord-icon.png" alt="Símbolo do Linkedin"></a></li>
-                    <li><a href="#"><img src="images/email-icon.png" alt="Símbolo do Linkedin"></a></li>
+                    <li><a href="https://www.linkedin.com/in/alexandresousasilva/" target="_blank"><img src="images/linkedin-icon.png" alt="Símbolo do Linkedin"></a></li>
+                    <li><a href="https://github.com/alexandresouva" target="_blank"><img src="images/github-icon.png" alt="Símbolo do Git Hub"></a></li>
+                    <li><a href="mailto:alexandresousa.contato@gmail.com"><img src="images/email-icon.png" alt="Símbolo de e-mail pessoal"></a></li>
                 </ul>
             </div>
         </section>
-
         <section id="resume">
             <div id="resume-title">
                 <h2>Experiência</h2>
@@ -63,9 +57,9 @@
             <div id="resume-container">
                 <div id="education-container">
                     <h3>Acadêmica</h3>
-                    <div class="divisor">
-                        <div class="verde"></div>
-                        <div class="cinza"></div>
+                    <div class="divider">
+                        <div class="green"></div>
+                        <div class="gray"></div>
                     </div>
                     <div class="timeline-container">
                         <p class="year">2022 - 2023</p>
@@ -74,9 +68,7 @@
                             <span class="activity-description">
                                 <h4 class="course-job">Desenvolvimento de Sistemas</h4>
                                 <p class="time-description">
-                                    Curso técnico com abrangência em front end, back end, mobile, banco de dados, testes
-                                    automatizados e
-                                    projeto integrador.
+                                    Curso técnico com abrangência em front end, back end, mobile, banco de dados, testes  de software e projeto integrador.
                                 </p>
                             </span>
                         </div>
@@ -87,9 +79,7 @@
                         <div class="timeline-description">
                             <span class="activity-description">
                                 <h4 class="course-job">ONE - Oracle Next Education</h4>
-                                <p class="time-description">Curso de 7 meses dividido em quatro trilhas: comportamental
-                                    (soft skills),
-                                    lógica de programação, front end e especialização Java.</p>
+                                <p class="time-description">Curso de 7 meses dividido em quatro trilhas: comportamental (soft skills), lógica de programação, front end e especialização Java.</p>
                             </span>
                         </div>
                     </div>
@@ -100,33 +90,28 @@
                             <span class="activity-description">
                                 <h4 class="course-job">Engenharia Mecânica</h4>
                                 <p class="time-description">
-                                    Experiência com iniciação científica. Primeiro contato com linguagem de
-                                    programação, na época, através do software MatLab.
+                                    Experiência com iniciação científica. Primeiro contato com linguagem de programação, na época, através do software MatLab.
                                 </p>
                             </span>
                         </div>
                     </div>
                 </div>
-
                 <div id="professional-container">
                     <h3>Profissional</h3>
-                    <div class="divisor">
-                        <div class="verde"></div>
-                        <div class="cinza"></div>
+                    <div class="divider">
+                        <div class="green"></div>
+                        <div class="gray"></div>
                     </div>
                     <div class="timeline-container">
                         <p class="year">Abril/2022 - Momento</p>
-                        <p class="university-company"> Gi Group Brasil</p>
+                        <p class="university-company"> Gi Group Holding</p>
                         <div class="timeline-description">
                             <span class="activity-description">
                                 <h4 class="course-job">Estagiário - TI</h4>
                                 <ul>
-                                    <li>Suporte aos usuários de sistemas do Grupo.</li>
-                                    <li>Suporte à equipe de desenvolvedores, utilizando conhecimentos de programação e
-                                        banco de dados para auxiliar no desenvolvimento de aplicações.</li>
-                                    <li> Mapeamento e definição de processos de negócios, documentação de sistemas e
-                                        processos, perfis de acesso e autorizações, desenvolvimento de relatórios,
-                                        manuais e melhorias, testes e implementação de produtos, entre outros.</li>
+                                    <li>Membro da equipe de desenvolvimento, responsável pelo suporte aos usuários de sistemas do Grupo.</li>
+                                    <li>Suporte à equipe de desenvolvedores, utilizando conhecimentos de programação e         banco de dados para auxiliar no desenvolvimento de aplicações.</li>
+                                    <li> Mapeamento e definição de processos de negócios, documentação de sistemas e processos, perfis de acesso e autorizações, desenvolvimento de relatórios e manuais, testes e implementação de produtos, entre outros.</li>
                                 </ul>
                             </span>
                         </div>
@@ -138,14 +123,9 @@
                             <span class="activity-description">
                                 <h4 class="course-job">Estagiário - Suporte TI</h4>
                                 <ul>
-                                    <li>Suporte aos alunos, professores e colaboradores sobre a utilização do sistema.
-                                    </li>
-                                    <li>Instalação, configuração e manuseio de sistemas operacionais (Ubuntu e Windows)
-                                        e
-                                        aplicações em geral.</li>
-                                    <li>Configuração e mantenabilidade da rede e dispositivos, como impressores,
-                                        roteadores, entre
-                                        outros.</li>
+                                    <li>Suporte aos alunos, professores e colaboradores sobre a utilização do sistema.</li>
+                                    <li>Instalação, configuração e manuseio de sistemas operacionais (Ubuntu e Windows) e aplicações em geral.</li>
+                                    <li>Configuração e mantenabilidade da rede e dispositivos, como impressores, roteadores, entre outros.</li>
                                 </ul>
                             </span>
                         </div>
@@ -161,30 +141,26 @@
             <div class="cards-container">
                 <div class="card">
                     <div class="card-image">
-                        <img src="images/teste.jfif" alt="Imagem ilustrativa do projeto de 'Quiz Dev'">
+                        <img src="images/quiz-dev.jfif" alt="Imagem ilustrativa do projeto de 'Quiz Dev'">
                     </div>
                     <div class="card-text">
                         <h2>Quiz Dev</h2>
-                        <p>Jogo de perguntas e respostas sobre conhecimentos em programação, no melhor estilo Show do
-                            Milhão. Você é capaz de ganhar o prêmio máximo?</p>
+                        <p>Jogo de perguntas e respostas sobre conhecimentos em programação, no melhor estilo Show do Milhão. Você é capaz de ganhar o prêmio máximo?</p>
                         <div class="soon">Em breve</div>
                     </div>
                 </div>
                 <div class="card">
                     <div class="card-image">
-                        <img src="images/landing-page-paralelo-publicicafe (1).png.opdownload"
-                            alt="Imagem ilustrativa do projeto de 'Quiz Dev'">
+                        <img src="images/landing-page.png" alt="Imagem ilustrativa do projeto 'Senai Legacy'">
                     </div>
                     <div class="card-text">
                         <h2>Senai Legacy</h2>
-                        <p>Website feito de alunos para alunos. Uma vitrine virtual de projetos, histórias e pessoas
-                            de TI que estudaram no Senai Suíço-Brasileira Paulo E. Tolle. </p>
+                        <p>Website feito de alunos para alunos. Uma vitrine virtual de projetos, histórias e pessoa de TI que estudaram no Senai Suíço-Brasileira Paulo E. Tolle. </p>
                         <div class="soon">Em breve</div>
                     </div>
                 </div>
             </div>
         </section>
-
         <section id="skills">
             <div id="skills-title">
                 <h2>Skills</h2>
@@ -194,7 +170,7 @@
                 <div class="row-stack">
                     <div class="stack">
                         <div class="stack-image">
-                            <img src="images/icon-html.png" alt="">
+                            <img src="images/icon-html.png" alt="Ícone HTML">
                         </div>
                         <div class="stack-text">
                             <h3>HTML</h3>
@@ -203,7 +179,7 @@
                     </div>
                     <div class="stack">
                         <div class="stack-image">
-                            <img src="images/icon-css.png" alt="">
+                            <img src="images/icon-css.png" alt="Ícone CSS">
                         </div>
                         <div class="stack-text">
                             <h3>CSS</h3>
@@ -212,7 +188,7 @@
                     </div>
                     <div class="stack">
                         <div class="stack-image">
-                            <img src="images/icon-javascript.png" alt="">
+                            <img src="images/icon-javascript.png" alt="Ícone Javascript">
                         </div>
                         <div class="stack-text">
                             <h3>Javascript</h3>
@@ -223,7 +199,7 @@
                 <div class="row-stack">
                     <div class="stack">
                         <div class="stack-image">
-                            <img id="java" src="images/icon-java.png" alt="">
+                            <img id="java" src="images/icon-java.png" alt="Ícone Java">
                         </div>
                         <div class="stack-text">
                             <h3>Java</h3>
@@ -232,16 +208,16 @@
                     </div>
                     <div class="stack">
                         <div class="stack-image">
-                            <img id="sql" src="images/icons-sql.png" alt="">
+                            <img id="sql" src="images/icons-sql.png" alt="Representação de um banco de dados">
                         </div>
                         <div class="stack-text">
                             <h3>Banco de dados</h3>
-                            <p>Relacionais e não relacionais: MySQL e MongoDB.</p>
+                            <p>CRUD e bancos relacionais: select, update, insert, etc.</p>
                         </div>
                     </div>
                     <div class="stack">
                         <div class="stack-image">
-                            <img src="images/icons-git.png" alt="">
+                            <img src="images/icons-git.png" alt="Ícone do Git">
                         </div>
                         <div class="stack-text">
                             <h3>Git e Git Hub</h3>
@@ -251,14 +227,48 @@
                 </div>
             </div>
         </section>
-
-        <section>
+        <section id="contact">
             <div id="contact-title">
                 <h2>Contato</h2>
-                <p>Tecnologias que você pode esperar em meus projetos.</p>
+                <p>Gostou? Deixe uma mensagem!</p>
+            </div>
+            <div id="contact-container">
+                <div id="my-contacts">
+                    <img src="images/coding.png" alt="Mãos simulando a digitação de um código de programação">
+                </div>
+                <div id="input-contact">
+                    <div>
+                        <span>
+                            <a href="https://www.linkedin.com/in/alexandresousasilva/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/alexandresouva" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="mailto:alexandresousa.contato@gmail.com"><i class="fa fa-envelope"></i></a>
+                        </span>
+                    </div>
+                    <form id="contact-form">
+                        <input class="basic-input" type="text" id="name" placeholder="Nome" />
+                        <input class="basic-input" type="email" id="email" placeholder="E-mail" />
+                        <textarea id="message" placeholder="Mensagem"></textarea>
+                        <button onclick="msgSent()" type="submit" id="submit-form">Enviar mensagem</button>
+                    </form>
+
+                </div>
             </div>
         </section>
     </main>
-</body>
+    <footer>
+        <a class="fa fa-chevron-circle-up" href="#home"></a>
+        <div>
+            <p>Copyright &copy;
+                <script>document.write(new Date().getFullYear())</script>.
+            </p>
+            <p>May the force be with you!</p>
+        </div>
+    </footer>
 
+    <script>
+        function msgSent(){
+            alert("Obrigado, sua mensagem foi enviada!"); 
+        }
+    </script>
+</body>
 </html>
