@@ -1,5 +1,6 @@
 <div align="center"><img src="images/demonstracao.gif"></div>
-<div style="display:flex; justify-content: center; align-items: center"><img width="35px" height="35px" align="center" src="favicon.ico"> <h1 style="display:inline-block; margin-left:15px"> Portfolio/Personal Page - Alexandre Silva</h1></div>
+<img width="35px" height="35px" align="center" src="favicon.ico"> 
+<h1 align="center"> Portfolio/Personal Page - Alexandre Silva</h1></div>
 <p align="center"><strong>Link do projeto:</strong> https://alexandresouva.github.io/personal-page/</p>
 
 ## :loudspeaker: Descrição do projeto
