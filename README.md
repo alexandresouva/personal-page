@@ -15,7 +15,7 @@ Optei pela segunda opção pois encontrei um modelo em que poderia trabalhar tod
 - Indentação e boas práticas.
 
 **CSS**
-- Box model para recriação do layout proposto.
+- Análise do box model para recriação do layout proposto.
 - Posicionamento de itens com flexbox.
 - Importação de fontes e transições com hover e webkit.
 
